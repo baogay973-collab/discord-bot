@@ -3335,6 +3335,7 @@ class HelpSelect(discord.ui.Select):
                     "Hãy chọn danh mục ở Menu thả xuống để khám phá danh sách lệnh chi tiết.\n\n"
                     "📌 **Prefix mặc định:** `n!`\n"
                     "👑 **Sở hữu bởi:** Boss Bảo & Đồng minh Tối Cao\n"
+                    "🤖 **OWNER BOT BY:** <@1574777881970737333>\n"
                     "💡 **Gợi ý:** Sử dụng các lệnh kinh tế để kiếm coin và tham gia game!"
                 ),
                 color=0xFF69B4
@@ -3400,7 +3401,7 @@ async def help_command(ctx):
             "Hãy chọn danh mục ở Menu thả xuống để khám phá danh sách lệnh chi tiết.\n\n"
             "📌 **Prefix mặc định:** `n!`\n"
             "👑 **Sở hữu bởi:** Boss Bảo & Đồng minh Tối Cao\n"
-            "🤖 **OWNER BOT BY:** <@1540585511842881616>\n"   # <--- THÊM DÒNG NÀY
+            "🤖 **OWNER BOT BY:** <@1574777881970737333>\n"   # <--- THÊM DÒNG NÀY
             "💡 **Gợi ý:** Sử dụng các lệnh kinh tế để kiếm coin và tham gia game!"
         ),
         color=0xFF69B4
@@ -3417,7 +3418,7 @@ async def setup(ctx):
         title="💖 HỆ THỐNG QUẢN TRỊ TỐI CAO CỦA BOSS BẢO 💖",
         description=(
             "Chọn một danh mục bên dưới để xem các lệnh tương ứng.\n"
-            "🤖 **OWNER BOT BY:** <@1540585511842881616>"  
+            "🤖 **OWNER BOT BY:** <@1574777881970737333>"  
         ),
         color=0xFF69B4
     )
